@@ -1,0 +1,131 @@
+
+		@font-face{
+			font-family: "nsmb";
+			src: url("fonts/nsmb.ttf");
+		}
+
+		@font-face{
+			font-family: "mkf2";
+			src: url("fonts/mkf2.ttf");
+		}
+
+		@font-face{
+			font-family: "orbitron";
+			src: url("fonts/orbitron.ttf");
+		}		
+		
+		*{padding: 0;margin: 0;}
+		
+		body{
+			font-family: sans-serif;margin: 0px;
+			overflow-x: hidden;
+		}
+
+		a{text-decoration: none;color: #3322ef;}
+
+		a:visited, a:hover , a:valid{color: #1132ea;text-decoration: underline;}
+
+		h1{font-family: "mkf2";}
+
+		h2{font-family: "nsmb";}
+
+		p{font-family: "orbitron";}
+
+		ul{list-style-type: none;}
+
+		.box{background: #000000;margin: 0;color: #f2edf5;}
+
+		#logobox{max-width: 100%;text-align: center;}
+
+		#logo{height: auto;min-width: 80px;max-width: 30%;}
+
+
+
+		#headerlinks{padding-bottom: 10px;}
+
+		#headerlinks ul{margin: auto;display: flex;flex-direction: row;justify-content: space-around;flex-wrap: wrap;}
+
+		#headerlinks li{list-style-type: none;
+			padding: 5px;border: 1px solid #eeedea;border-radius: 10px 10px;box-shadow: 0px 0px 2px 2px #adaeaf;
+			display: inline-block;font-size: xx-large;
+			background-color: #eeedea;
+			font-family: "nsmb";
+		}
+
+		@media all and (min-width: 1000px){#headerlinks ul li{font-size: x-large;}}
+
+		@media all and (max-width: 999px){#headerlinks ul li{font-size: large;}}
+
+		@media all and (max-width: 799px){#headerlinks ul li{font-size: medium;}}
+
+		@media all and (max-width: 599px){#headerlinks ul li{font-size: small;}}
+
+		@media all and (max-width: 499px){#headerlinks ul li{font-size: x-small;}}
+
+		@media all and (max-width: 399px){#headerlinks ul li{font-size: xx-small;}}
+
+		@media all and (max-width: 350px){#headerlinks ul {flex-direction: column;justify-content: space-between;}}
+
+		@media all and (max-width: 350px){#headerlinks ul li{flex-direction: column;margin: 5px;text-align: center;}}
+
+
+
+
+		#headerlinks a{color: #141213;}
+		#headerlinks a:hover{text-decoration: none;}
+
+		#headerlinks a:visited{color: #141213;}
+
+		#randompicbox{width: 65%;margin: auto;padding: 0;}
+		#randompic{width: 100%;height: auto;padding: 0;margin: 0;z-index: 0;border: 1px solid rgb(45,51,25);border-radius: 15px 30px;box-shadow: 3px 3px 30px 30px rgba(38,30,27,0.95);}
+
+		#description{margin-top: 50px;}
+
+		main{background-image: url("pictures/lightbackgroundcollide.png");background-repeat: no-repeat;background-size: cover;background-attachment: fixed;background-position: center;
+		padding-top: 50px;padding-bottom: 50px;}
+
+		main #maintopspace{min-height: 33px;}
+
+		#mainsection{margin: auto;width: 90%;text-align: center;}
+
+		#titleofthesection{margin-bottom: 60px;}
+
+		main p{font-family: "nsmb";color: #202122;font-weight: light;font-size: larger;}
+
+		main .lightfont{font-family: monospace;color: #333435;opacity: 0.87;text-shadow: 0px 0px 1px 1px rgba(233,225,220,0.90);}
+
+		#storybox {padding: 4px;background: #eeefea;opacity: 0.82;border: 1px solid initial;border-radius: 6px 6px;text-align: justify;}
+
+		#howtobox{text-align: left;padding-left: 5%;list-style-type: disc;}
+
+		#howtobox li{margin-bottom: 10px;};
+
+		main figcaption{font-family: "nsmb";font-size: large;}
+		
+		main figure img{min-width:130px;max-width: 100%;height: auto;padding: 2px;}
+
+		main figure img.double{min-width:100px;max-width: 48%;height: auto;padding: 2px;vertical-align: top;}
+
+		.track{font-family: "orbitron";}
+
+		.title{margin-top: 30px;margin-bottom: 25px;}/*border-bottom: 1px ridge black;}*/
+
+		#download{margin-top: 20px;}
+
+		#otherlinks{margin-top: 20px;}
+
+		article{padding-bottom: 10px;}
+
+		#footerfloat{float: left;clear: both;font-family: monospace;}
+
+		@media all and (max-width: 1400px){footer #footerfloat{font-size: xx-large;}}
+		@media all and (max-width: 1100px){footer #footerfloat{font-size: x-large;}}
+		@media all and (max-width: 900px){footer #footerfloat{font-size: large;}}
+
+		@media all and (max-width: 900px){footer{flex-direction: column;}}
+
+		@media all and (max-width: 700px){footer #footerfloat{font-size: medium;}}
+		@media all and (max-width: 400px){footer #footerfloat{font-size: small;}}
+
+		#devcredits{margin-top: 30px;text-align: right;margin-right: 5px;}
+
